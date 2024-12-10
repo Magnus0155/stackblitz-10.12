@@ -24,6 +24,15 @@ while (countdown > 0) {
 console.log('Blast off!');
 
 */
+/*Svare på oppgave 1 her. Gjorde 1.2 og 3*/ 
+let countdown = 1;
+
+while (countdown < 5) {
+  console.log(`Countdown: ${countdown}`);
+  countdown++;
+}
+
+console.log('Blast off!');
 
 //OPPGAVE.2, For loop
 /*
@@ -49,6 +58,18 @@ for (let i = 1; i <= 10; i++) {
 }
 
 */
+/* Svare på oppgave 2 her. Skriv av og ikke kopier. (const fruit er for å lage din egen array)  */
+
+const  number =5;
+const fruit = ["eple", "mango"]
+
+for(let i = 0; i < fruit.length; i++) {
+  //console.log(`${number} x ${i} = ${number *i}`);
+  let fruitString = "Dette er en frukt" + " "+ fruit[i]
+  console.log(fruitString);
+
+}
+  
 
 //OPPGAVE.3, forEach
 /*
@@ -74,6 +95,14 @@ shoppingList.forEach((item) => {
   console.log(item);
 });
 */
+/*Svare på oppgave 3 her. gjorde 1 og 2. 3 og 4 senere*/
+
+let shoppingList = ['milk', 'bread', 'fish', 'egg','banana','carrot'];
+let colors = ['blue','red','green']
+colors.forEach((item) => {
+  console.log(item);
+  
+});
 
 //OPPGAVE.4, map
 /*
